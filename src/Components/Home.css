@@ -1,0 +1,52 @@
+.hm {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #ffffff, #fafafa);
+  z-index: 800;
+  position: relative;
+  min-height: 499px;
+  overflow-y: hidden;
+}
+
+.hm::before {
+  width: 99vw;
+  height: 222px;
+  background: linear-gradient(to right, #ffffff, #fafafa);
+  position: absolute;
+  z-index: 5;
+  content: "";
+  top: 0;
+}
+
+.hmc {
+  width: 100%;
+  height: 100%;
+  max-width: 1366px;
+  z-index: 100;
+  display: flex;
+}
+
+.hmbg {
+  flex: 1;
+  background: linear-gradient(to right, #fffff0, #ffffff);
+  z-index: 100;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hmbg > img {
+  width: 0px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1368px) {
+  .hmc {
+    height: 96%;
+  }
+}

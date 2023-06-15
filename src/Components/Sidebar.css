@@ -1,0 +1,87 @@
+.sdb {
+  min-width: 310px;
+  width: 30%;
+  border-right: 1px solid lightgrey;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fafafa;
+  font-weight: bolder;
+}
+
+.sdbheader {
+  height: 54px;
+  padding: 6px 0 6px 11px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.sdbheader-img {
+  width: 53px;
+  height: 53px;
+}
+
+.sdbheader-img > img {
+  width: 53px;
+  height: 53px;
+  cursor: pointer;
+  border-radius: 99%;
+}
+
+.sdbheader-btn {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  width: 150px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.sdbheader-btn > .MuiSvgIcon-root {
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.sdbsearch {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.sdbsearch-input {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  height: 34px;
+  background: linear-gradient(to right, #f0f0f0, #a8a7a8);
+  border: 4px solid lightgrey;
+  border-radius: 20px;
+}
+
+.sdbsearch-input > .MuiSvgIcon-root {
+  font-size: 18px;
+  color: #ccdccc;
+  margin-left: 10px;
+}
+
+.sdbsearch-input > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  width: 80%;
+}
+
+.sdbchat-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}

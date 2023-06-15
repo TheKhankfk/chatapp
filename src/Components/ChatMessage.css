@@ -1,0 +1,31 @@
+.cm {
+  display: flex;
+  margin: 16px 31px 16px 31px;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  max-width: 399px;
+  padding: 9px;
+  background: linear-gradient(to right, #fffff0, #a8a7a8);
+  border-radius: 20px;
+  height: fit-content;
+  box-shadow:aqua;
+}
+
+.cm-text {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 11px;
+}
+
+.cm-date {
+  font-size: 11px;
+  color: blue;
+  font-weight: normal;
+  align-self: flex-end;
+}
+
+.emoji-picker-react {
+  position: absolute !important;
+  top: -323px;
+}

@@ -1,0 +1,70 @@
+.lgn {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to right, #ffff00, #f1f1);
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.lgn::before {
+  width: 100vw;
+  height: 222px;
+  background-image: url("C:\Users\Kalim Khan\OneDrive\Documents\whatsapp\public\m2.jpeg");
+  background-size:auto;
+  background-position: center;
+  position: absolute;
+  top: 1px;
+  content: "";
+}
+
+.lgn-cntr {
+  background: linear-gradient(to right, #ffff00, #11f1f1);
+  width: 450px;
+  margin: auto;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 9px;
+  box-shadow: 0 18px 49px 0 rgb(0 0 0 / 19%), 0 12px 15px 0 rgb(0 0 0 / 24%);
+  z-index: 99;
+}
+
+.lgn-logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.lgn-name {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.lgn-btn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: #00755a;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.lgn-btn:hover {
+  background-color: #ff1541;
+}
+
+.lgn-btn > img {
+  width: 21px;
+  margin-right: 11px;
+}

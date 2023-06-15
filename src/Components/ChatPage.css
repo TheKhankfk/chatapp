@@ -1,0 +1,34 @@
+.cp {
+  width: 99vw;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #fffff0, #f8f7f8);
+  z-index: 100;
+  position: relative;
+}
+
+.cp::before {
+  width: 100vw;
+  height: 222px;
+  background: linear-gradient(to right, #fffff0, #ffffff);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  content: "";
+}
+.cpcontainer {
+  width: 99%;
+  height: 99%;
+  max-width: 1359px;
+  z-index: 100;
+  display: flex;
+}
+
+@media only screen and (min-width: 1367px) {
+  .cpcontainer {
+    height: 96%;
+  }
+}
