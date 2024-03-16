@@ -5,7 +5,7 @@ import "./UserProfile.css";
 function UserProfile({ name, photoURL, email, lastMessage }) {
   const navigate = useNavigate();
 
-  // Function to navigate to user's chat page
+  // Function to navigate to user's chat page goToUser
   const gtu = (emailId) => {
     // Check if the emailId is provided
     if (emailId) {
